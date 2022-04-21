@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Axios consuming API REST SYMFOFILMS Demo</title>
+    <!-- Halfmoon CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+    <!--
+    Or,
+    Use the following (no variables, supports IE11):
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
+    -->
+
+    <!-- Halfmoon JS -->
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+</head>
+
+<body class="mt-5">
+    <!-- Page wrapper with .with-navbar class -->
+    <div class="page-wrapper with-navbar" id="parentNav">
+        <!-- Content wrapper -->
+        <div class="content-wrapper">
+            <div id="all_movies" class="w-full d-flex flex-row flex-wrap justify-content-center"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    <script src="components.js" defer></script>
+
+    <script>
+        window.onload = function() {
+
+            // pintamos el NavBar
+            getNav();
+
+            //pintamos el search form
+            getSearchForm();
+
+            getByIdRequest();
+
+
+        };
+    </script>
+</body>
+
+</html>

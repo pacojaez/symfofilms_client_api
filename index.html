@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Axios consuming API REST SYMFOFILMS Demo</title>
+    <!-- Halfmoon CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+    <!--
+    Or,
+    Use the following (no variables, supports IE11):
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
+    -->
+
+    <!-- Halfmoon JS -->
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <div>
+            <button class="btn" type="button" onclick="getAllRequest()"><a href="allmovies.html">Get All</a></button>
+            <button class="btn btn-primary" type="button" onclick="getFilteredRequest()">Get Filtered</button>
+            <button onclick="getByIdRequest()">Get by Id</button>
+        </div>
+        <div>
+            <button onclick="postRequest()">Create</button>
+        </div>
+        <div>
+            <button onclick="patchRequest()">Update</button>
+        </div>
+        <div>
+            <button onclick="putRequest()">Replace</button>
+        </div>
+        <div>
+            <button onclick="deleteRequest()">Delete</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
