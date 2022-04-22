@@ -112,12 +112,12 @@ _function getSearchForm() {
 
 ## Autores ✒️
 
-* **Paco Jáñez** - *Trabajo Inicial* - (https://github.com/pacojaez)
+* **Paco Jáñez** - (https://github.com/pacojaez)
 
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia  - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia OpenSource
 
 ## Expresiones de Gratitud 🎁
 
